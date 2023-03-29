@@ -25,9 +25,5 @@ on:
       - uses: actions/checkout@v3.3.0
       
       - name: List files in the repository
-      
-      - run: |
-        echo "The repository ${{ github.repository }} contains the following files:" 
-          tree
-  
-  
+          run:|
+            echo "The repository ${{ github.repository }} contains the following files:" tree
